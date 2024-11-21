@@ -73,9 +73,9 @@ class AdministerHF(AdministerCustom):
                 for k in probs.keys():
                     probs[k] = int(probs[k]==max(probs.values()))
         else:
-            numerical_response = first_char_numerical_parser(model_output)
+            numerical_response = first_char_parser(model_output, numerical=self.questionnaire.index_type=="numerical")
             probs = {
-                k: int(str(numerical_response)==k.lower())
+                k: int(str(numerical_response).lower()==k.lower())
                 for k in choices_keys
             }
             

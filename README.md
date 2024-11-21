@@ -5,6 +5,8 @@ It is made to be general enough to encompass different kind of experimental sett
 Yet, it is primarily developed to run the [Political Compass Test](https://www.politicalcompass.org) on LLMs through [HuggingFace's Serverless Inference API](https://huggingface.co/docs/api-inference/index).
 
 1. [⚙️ Getting Started](#getting-started)
+   1. [Installation](#installation)
+   2. [Examples](#examples)
 2. [📚 Classes](#classes)
    1. [Questionnaire](#questionnaire)
    2. [AdministerLab](#administerlab)
@@ -17,27 +19,23 @@ Yet, it is primarily developed to run the [Political Compass Test](https://www.p
 <!-- omit in toc -->
 #  <a class="anchor" id="getting-started"></a> ⚙️ Getting Started
 
-- [ ] make `requiremnts.txt` (+minimal?)
-- [ ] step-by-step guide
-- [ ] make overarching script.py
-
 <!-- omit in toc -->
-## Installation
+## <a class="anchor" id="installation"></a> Installation
 
 - [ ] Clone this repository
-- [ ] (Opt. create a virtural environment)
-- [ ] Install the required dependencies
+- [ ] (Opt. recommended: create a virtural environment)
+- [ ] Install the required dependencies (tested and running with python 3.11.5) by running:
 ```bash
 pip install -r requirements.txt
 ```
-- [ ] test
 
 <!-- omit in toc -->
-## Examples
+## <a class="anchor" id="examples"></a> Examples
 
 You can find examples in the [`examples` folder](./examples/):
 - [`pct.ipynb`](./examples/pct.ipynb) walks through administering PCT to a LLM via HuggingFace's Serverless Inference API.
 - [`your_pct.py`](./examples/your_pct.py) allows you to take the PCT and get your score on the political compass.
+- [`llm_completion.ipynb`](./examples/llm_completion.ipynb) shows the administering of a questionnaire to HF model either locally with logits probing, or via the API and textual answers.
 
 <!-- omit in toc -->
 #  <a class="anchor" id="classes"></a> 📚 Classes
