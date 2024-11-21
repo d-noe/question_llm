@@ -1,0 +1,9 @@
+huggingface-hub==0.22.0
+jupyter==1.1.1
+matplotlib
+numpy
+pandas
+torch
+tqdm
+transformers
+git+https://github.com/Xtr4F/PyCharacterAI
