@@ -17,7 +17,7 @@ Yet, it is primarily developed to run the Political Compass Test on LLMs through
 <!-- omit in toc -->
 #  <a class="anchor" id="getting-started"></a> ⚙️ Getting Started
 
-- [ ] make requiremnts !!
+- [ ] make `requiremnts.txt` (+minimal?)
 - [ ] step-by-step guide
 - [ ] make overarching script.py
 
