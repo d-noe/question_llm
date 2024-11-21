@@ -2,7 +2,7 @@
 
 This repository contains code for interacting with and evaluating Large Language Models (LLMs) using questionnaires. 
 It is made to be general enough to encompass different kind of experimental settings (including diverse questionnaires and alternative probing mechanisms). 
-Yet, it is primarily developed to run the Political Compass Test on LLMs through HuggingFace's Serverless Inference API.
+Yet, it is primarily developed to run the [Political Compass Test](https://www.politicalcompass.org) on LLMs through [HuggingFace's Serverless Inference API](https://huggingface.co/docs/api-inference/index).
 
 1. [⚙️ Getting Started](#getting-started)
 2. [📚 Classes](#classes)
@@ -141,7 +141,8 @@ It can be particularly useful to probe models and access their inner representat
 This module allows users to utilize **Hugging Face's serverless inference API**. This option offers scalability and convenience for users who prefer not to manage local infrastructure, or simply when not available.
 
 
-<!-- omit in toc -->
+<!-- omit 
 ## <a class="anchor" id="cai-api"></a> Character.ai (unoficial) API
 
 This module offers an interface for interacting with **LLMs hosted on Character.ai**, a platform designed for **conversational and character-driven interactions**. This module uses an unofficial API, so users should be aware of potential limitations or changes.
+-->
