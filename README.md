@@ -87,17 +87,13 @@ The `.json` file must comply to a strict format which includes the `categories` 
                 "Answer 3 (Cat C)",
                 "Answer 4 (Cat A)",
             ],
-            "scores": [ # distribution of choice(i) over categories
+            "scores": [
                 [1, 0, 0],
                 [0, 1, 0],
                 [0, 0, 1],
                 [1, 0, 0]
             ]
-        },
-        "id_1": {
-            ...   
-        },
-        ...
+        }
     }
 }
 ```

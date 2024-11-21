@@ -11,8 +11,16 @@ class LLMInference:
     def prompt_model(
         cls,
         input_str,
+        kwargs,
     ):
         raise NotImplementedError
+
+    def __call__(
+        cls,
+        input_str,
+        **kwargs,
+    ):
+        return cls.prompt_model(input_str, **kwargs)
 
 # ====================================
 
