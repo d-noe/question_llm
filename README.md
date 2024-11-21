@@ -130,6 +130,9 @@ The `AdministerQuestionnaire` class handles the process of presenting questionna
 The overall implementation is meant to offer flexibility in choosing how to interact with LLMs.
 A few specific modules are pre-implemented, providing support for various inference modalities.
 
+> [!WARNING]
+> Please remember to use the APIs respectfully and be aware of the user guides, rate limits and other potential restrictions.
+
 <!-- omit in toc -->
 ## <a class="anchor" id="local-hf"></a> Local HF Model
 
