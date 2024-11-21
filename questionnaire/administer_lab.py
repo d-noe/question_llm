@@ -49,6 +49,7 @@ class AdministerCustom(AdministerQuestionnaire):
         output_parser,
         generation_args={},
         parser_args={},
+        store_answers:bool=True
     ):
         """
         generation_method 
@@ -71,6 +72,9 @@ class AdministerCustom(AdministerQuestionnaire):
         self.generation_args = generation_args
         self.output_parser = output_parser
         self.parser_args = parser_args
+        self.store_answers = store_answers
+        if self.store_answers:
+            self.generated_responses = []
 
     def _get_answer_probs(
         self,
@@ -81,6 +85,8 @@ class AdministerCustom(AdministerQuestionnaire):
             self.generation_method(p,**self.generation_args) 
             for p in prompts
         ]
+        if self.store_answers:
+            self.generated_responses = generated_responses
         cks = self.questionnaire.get_choices_keys()
         parsed_responses = [
             self.output_parser(r,cks[i],**self.parser_args)

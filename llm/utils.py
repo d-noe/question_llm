@@ -1,6 +1,14 @@
 import torch
 import numpy as np
 
+def first_char_numerical_parser(
+    input_str,
+):
+    try:
+        return int(input_str.strip()[0])
+    except:
+        return 0 # np.Nan?
+
 def get_tokens_ids(
     tokenizer,
     inputs:list,

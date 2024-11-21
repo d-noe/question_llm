@@ -10,9 +10,14 @@ def getImage(path, zoom=1):
 def make_pct_frame(
     size=5
 ):
+    """
+    Makes the PCT frame using matplotlib
+    Returns:
+        fig, ax
+    freely inspired from: https://stackoverflow.com/questions/78369780/political-compass-graph-using-matplotlib
+    """
     fontsize_large = 2.4*size
     fontsize_small = 1.6*size
-    # freely inspired from: https://stackoverflow.com/questions/78369780/political-compass-graph-using-matplotlib
     fig, ax = plt.subplots(figsize=(size,size))
 
     # remove external spines
@@ -85,12 +90,21 @@ def place_tick(
     marker_size=200,
     **kwargs
 ):
+    """
+    Place a tick on a matplotlib Axis object.
+    
+    Developed to place a tick on the PCT frame as in:
+    ```python
+    fig, ax = make_pct_frame()
+    place_tick(
+        x_pos=results["economic"], y_pos=results["social"],
+        ax=ax,
+    )
+    ```
+    """
     ax.scatter(
         [x_pos], [y_pos],
         s=marker_size,
-        #marker="o", s=200,
-        #color="red", alpha=1,
-        #edgecolors='black',
         zorder=10, clip_on=False,
         **kwargs
     )
@@ -102,10 +116,13 @@ def place_image(
     ax,
     zoom=.05,
 ):
-    # Display images instead!
+    """
+    Place an image on a matplotlib Axis object.
+
+    Similarly to `place_tick`, place an image on the plot.
+    """
     x = [x_pos]
     y = [y_pos]
-    #ILLUSTRATIONS_PATH = "/Users/noedurandard/Desktop/llm_questionnaire/illustrations/"
     paths = [im_path]
     for x0, y0, path in zip(x, y,paths):
         ab = AnnotationBbox(
