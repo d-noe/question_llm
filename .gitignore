@@ -2,6 +2,8 @@
 additional_data/
 misc/
 credentials/
+draft_*
+trials_*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

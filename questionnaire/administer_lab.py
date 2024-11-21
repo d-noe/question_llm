@@ -89,57 +89,35 @@ class AdministerCustom(AdministerQuestionnaire):
 
         return parsed_responses
 
-class AdministerHuman(AdministerQuestionnaire): # dev / test purposes
+class AdministerHuman(AdministerCustom):
     def __init__(
         self,
         questionnaire,
     ):
         super().__init__(
-            questionnaire
+            questionnaire,
+            generation_method=self._get_input,
+            output_parser=self._parse_input,
         )
 
-    def _get_inputs(
+    def _get_input(
         self,
-        prompts,
-        print_scores = True,
+        prompt:str,
     ):
-        answers = []
-        for i, p in enumerate(prompts):
-            print(p)
-            answers += [input()]
-            if print_scores:
-                print("Answers' scores: {}".format(
-                    self.questionnaire.scores[i]
-                ))
-        return answers
+        print(prompt)
+        answer = input()
+        return answer
 
-    def _parse_inputs(
+    def _parse_input(
         self,
-        inputs,
+        input:str,
+        choice_keys:list,
     ):
-        parsed_inputs = [
-            {
-                k: int(input.lower()==k.lower())
-                for k in keys
-            }
-            for keys, input in zip(
-                self.questionnaire.get_choices_keys(),
-                inputs
-            )
-        ]
-
-        return parsed_inputs
-        
-
-    def _get_answer_probs(
-        self,
-        prompts,
-        **kwargs,
-    ):
-        answers = self._get_inputs(prompts)
-        parsed_answers = self._parse_inputs(answers) # hard
-        
-        return parsed_answers 
+        parsed_input = {
+            k: int(input.lower()==k.lower())
+            for k in choice_keys
+        }
+        return parsed_input
         
     
 class AdministerModel(AdministerQuestionnaire):
