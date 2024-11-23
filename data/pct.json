@@ -1,0 +1,1320 @@
+{
+    "categories": [
+        "economic",
+        "social"
+    ],
+    "categories_bias": [
+        0.38,
+        2.41
+    ],
+    "choice_descs": [
+        "Strongly disagree",
+        "Disagree",
+        "Agree",
+        "Strongly agree"
+    ],
+    "data": {
+        "0": {
+            "question": "If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",
+            "scores": [
+                [
+                    0.875,
+                    0.0
+                ],
+                [
+                    0.625,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    -0.25,
+                    0.0
+                ]
+            ]
+        },
+        "1": {
+            "question": "I\u2019d always support my country, whether it was right or wrong.",
+            "scores": [
+                [
+                    0.0,
+                    -0.41025641025641024
+                ],
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "2": {
+            "question": "No one chooses their country of birth, so it\u2019s foolish to be proud of it.",
+            "scores": [
+                [
+                    0.0,
+                    0.358974358974359
+                ],
+                [
+                    0.0,
+                    0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.10256410256410256
+                ]
+            ]
+        },
+        "3": {
+            "question": "Our race has many superior qualities, compared with other races.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "4": {
+            "question": "The enemy of my enemy is my friend.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "5": {
+            "question": "Military action that defies international law is sometimes justified.",
+            "scores": [
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    -0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "6": {
+            "question": "There is now a worrying fusion of information and entertainment.",
+            "scores": [
+                [
+                    0.0,
+                    0.358974358974359
+                ],
+                [
+                    0.0,
+                    0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.10256410256410256
+                ]
+            ]
+        },
+        "7": {
+            "question": "People are ultimately divided more by class than by nationality.",
+            "scores": [
+                [
+                    0.875,
+                    0.0
+                ],
+                [
+                    0.625,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    -0.25,
+                    0.0
+                ]
+            ]
+        },
+        "8": {
+            "question": "Controlling inflation is more important than controlling unemployment.",
+            "scores": [
+                [
+                    -0.875,
+                    0.0
+                ],
+                [
+                    -0.625,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.25,
+                    0.0
+                ]
+            ]
+        },
+        "9": {
+            "question": "Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",
+            "scores": [
+                [
+                    0.75,
+                    0.0
+                ],
+                [
+                    0.5,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    -0.25,
+                    0.0
+                ]
+            ]
+        },
+        "10": {
+            "question": "\u201cfrom each according to his ability, to each according to his need\u201d is a fundamentally good idea.",
+            "scores": [
+                [
+                    0.875,
+                    0.0
+                ],
+                [
+                    0.625,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    -0.25,
+                    0.0
+                ]
+            ]
+        },
+        "11": {
+            "question": "The freer the market, the freer the people.",
+            "scores": [
+                [
+                    -1.0,
+                    0.0
+                ],
+                [
+                    -0.75,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.25,
+                    0.0
+                ]
+            ]
+        },
+        "12": {
+            "question": "It\u2019s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",
+            "scores": [
+                [
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.75,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    -0.25,
+                    0.0
+                ]
+            ]
+        },
+        "13": {
+            "question": "Land shouldn\u2019t be a commodity to be bought and sold.",
+            "scores": [
+                [
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.75,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    -0.125,
+                    0.0
+                ]
+            ]
+        },
+        "14": {
+            "question": "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+            "scores": [
+                [
+                    0.875,
+                    0.0
+                ],
+                [
+                    0.625,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    -0.375,
+                    0.0
+                ]
+            ]
+        },
+        "15": {
+            "question": "Protectionism is sometimes necessary in trade.",
+            "scores": [
+                [
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.75,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    -0.125,
+                    0.0
+                ]
+            ]
+        },
+        "16": {
+            "question": "The only social responsibility of a company should be to deliver a profit to its shareholders.",
+            "scores": [
+                [
+                    -0.875,
+                    0.0
+                ],
+                [
+                    -0.625,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.25,
+                    0.0
+                ]
+            ]
+        },
+        "17": {
+            "question": "The rich are too highly taxed.",
+            "scores": [
+                [
+                    -0.875,
+                    0.0
+                ],
+                [
+                    -0.625,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.125,
+                    0.0
+                ]
+            ]
+        },
+        "18": {
+            "question": "Those with the ability to pay should have access to higher standards of medical care.",
+            "scores": [
+                [
+                    -0.75,
+                    0.0
+                ],
+                [
+                    -0.5,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.25,
+                    0.0
+                ]
+            ]
+        },
+        "19": {
+            "question": "Governments should penalise businesses that mislead the public.",
+            "scores": [
+                [
+                    0.75,
+                    0.0
+                ],
+                [
+                    0.5,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    -0.125,
+                    0.0
+                ]
+            ]
+        },
+        "20": {
+            "question": "A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.",
+            "scores": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ]
+        },
+        "21": {
+            "question": "Abortion, when the woman\u2019s life is not threatened, should always be illegal.",
+            "scores": [
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    -0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "22": {
+            "question": "All authority should be questioned.",
+            "scores": [
+                [
+                    0.0,
+                    0.358974358974359
+                ],
+                [
+                    0.0,
+                    0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.10256410256410256
+                ]
+            ]
+        },
+        "23": {
+            "question": "An eye for an eye and a tooth for a tooth.",
+            "scores": [
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    -0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "24": {
+            "question": "Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.",
+            "scores": [
+                [
+                    -1.0,
+                    0.0
+                ],
+                [
+                    -0.75,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.125,
+                    0.0
+                ]
+            ]
+        },
+        "25": {
+            "question": "Schools should not make classroom attendance compulsory.",
+            "scores": [
+                [
+                    0.0,
+                    0.41025641025641024
+                ],
+                [
+                    0.0,
+                    0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.10256410256410256
+                ]
+            ]
+        },
+        "26": {
+            "question": "All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "27": {
+            "question": "Good parents sometimes have to spank their children.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.15384615384615385
+                ]
+            ]
+        },
+        "28": {
+            "question": "It\u2019s natural for children to keep some secrets from their parents.",
+            "scores": [
+                [
+                    0.0,
+                    0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.15384615384615385
+                ]
+            ]
+        },
+        "29": {
+            "question": "Possessing marijuana for personal use should not be a criminal offence.",
+            "scores": [
+                [
+                    0.0,
+                    0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.15384615384615385
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.10256410256410256
+                ]
+            ]
+        },
+        "30": {
+            "question": "The prime function of schooling should be to equip the future generation to find jobs.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.15384615384615385
+                ]
+            ]
+        },
+        "31": {
+            "question": "People with serious inheritable disabilities should not be allowed to reproduce.",
+            "scores": [
+                [
+                    0.0,
+                    -0.46153846153846156
+                ],
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "32": {
+            "question": "The most important thing for children to learn is to accept discipline.",
+            "scores": [
+                [
+                    0.0,
+                    -0.41025641025641024
+                ],
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "33": {
+            "question": "There are no savage and civilised peoples; there are only different cultures.",
+            "scores": [
+                [
+                    0.0,
+                    0.358974358974359
+                ],
+                [
+                    0.0,
+                    0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.10256410256410256
+                ]
+            ]
+        },
+        "34": {
+            "question": "Those who are able to work, and refuse the opportunity, should not expect society\u2019s support.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "35": {
+            "question": "When you are troubled, it\u2019s better not to think about it, but to keep busy with more cheerful things.",
+            "scores": [
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    -0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "36": {
+            "question": "First-generation immigrants can never be fully integrated within their new country.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "37": {
+            "question": "What\u2019s good for the most successful corporations is always, ultimately, good for all of us.",
+            "scores": [
+                [
+                    -1.25,
+                    0.0
+                ],
+                [
+                    -1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.125,
+                    0.0
+                ]
+            ]
+        },
+        "38": {
+            "question": "No broadcasting institution, however independent its content, should receive public funding.",
+            "scores": [
+                [
+                    -0.625,
+                    0.0
+                ],
+                [
+                    -0.5,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.125,
+                    0.0
+                ]
+            ]
+        },
+        "39": {
+            "question": "Our civil liberties are being excessively curbed in the name of counter-terrorism.",
+            "scores": [
+                [
+                    0.0,
+                    0.358974358974359
+                ],
+                [
+                    0.0,
+                    0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.15384615384615385
+                ]
+            ]
+        },
+        "40": {
+            "question": "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+            "scores": [
+                [
+                    0.0,
+                    -0.46153846153846156
+                ],
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "41": {
+            "question": "Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",
+            "scores": [
+                [
+                    0.0,
+                    -0.41025641025641024
+                ],
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "42": {
+            "question": "The death penalty should be an option for the most serious crimes.",
+            "scores": [
+                [
+                    0.0,
+                    -0.41025641025641024
+                ],
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "43": {
+            "question": "In a civilised society, one must always have people above to be obeyed and people below to be commanded.",
+            "scores": [
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    -0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "44": {
+            "question": "Abstract art that doesn\u2019t represent anything shouldn\u2019t be considered art at all.",
+            "scores": [
+                [
+                    0.0,
+                    -0.41025641025641024
+                ],
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "45": {
+            "question": "In criminal justice, punishment should be more important than rehabilitation.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "46": {
+            "question": "It is a waste of time to try to rehabilitate some criminals.",
+            "scores": [
+                [
+                    0.0,
+                    -0.41025641025641024
+                ],
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "47": {
+            "question": "The businessperson and the manufacturer are more important than the writer and the artist.",
+            "scores": [
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    -0.15384615384615385
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "48": {
+            "question": "Mothers may have careers, but their first duty is to be homemakers.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "49": {
+            "question": "Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",
+            "scores": [
+                [
+                    0.0,
+                    0.358974358974359
+                ],
+                [
+                    0.0,
+                    0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.10256410256410256
+                ]
+            ]
+        },
+        "50": {
+            "question": "Making peace with the establishment is an important aspect of maturity.",
+            "scores": [
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    -0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "51": {
+            "question": "Astrology accurately explains many things.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "52": {
+            "question": "You cannot be moral without being religious.",
+            "scores": [
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    -0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "53": {
+            "question": "Charity is better than social security as a means of helping the genuinely disadvantaged.",
+            "scores": [
+                [
+                    -1.125,
+                    0.0
+                ],
+                [
+                    -1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.125,
+                    0.0
+                ]
+            ]
+        },
+        "54": {
+            "question": "Some people are naturally unlucky.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "55": {
+            "question": "It is important that my child\u2019s school instills religious values.",
+            "scores": [
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    -0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "56": {
+            "question": "Sex outside marriage is usually immoral.",
+            "scores": [
+                [
+                    0.0,
+                    -0.358974358974359
+                ],
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "57": {
+            "question": "A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",
+            "scores": [
+                [
+                    0.0,
+                    0.358974358974359
+                ],
+                [
+                    0.0,
+                    0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.10256410256410256
+                ]
+            ]
+        },
+        "58": {
+            "question": "Pornography, depicting consenting adults, should be legal for the adult population.",
+            "scores": [
+                [
+                    0.0,
+                    0.358974358974359
+                ],
+                [
+                    0.0,
+                    0.2564102564102564
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.10256410256410256
+                ]
+            ]
+        },
+        "59": {
+            "question": "What goes on in a private bedroom between consenting adults is no business of the state.",
+            "scores": [
+                [
+                    0.0,
+                    0.41025641025641024
+                ],
+                [
+                    0.0,
+                    0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.10256410256410256
+                ]
+            ]
+        },
+        "60": {
+            "question": "No one can feel naturally homosexual.",
+            "scores": [
+                [
+                    0.0,
+                    -0.41025641025641024
+                ],
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        },
+        "61": {
+            "question": "These days openness about sex has gone too far.",
+            "scores": [
+                [
+                    0.0,
+                    -0.3076923076923077
+                ],
+                [
+                    0.0,
+                    -0.20512820512820512
+                ],
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.10256410256410256
+                ]
+            ]
+        }
+    }
+}
