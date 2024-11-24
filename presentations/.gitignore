@@ -1,0 +1,5 @@
+# ignore all files but not current folder
+*
+!.gitignore
+!README.md
+!slides.html

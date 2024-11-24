@@ -24,7 +24,7 @@ def get_tokens_ids(
     tokens_ids_dict = {
         input: list(set(
             [tokenizer.encode(input)[token_id]]+[ # keep first token
-                tokenizer.encode(pre+input)[token_id] # !!! quite sketchy
+                tokenizer.encode(pre+input)[token_id] 
                 for pre in prefixes
             ]+[
                 tokenizer.encode(input+suf)[token_id]
