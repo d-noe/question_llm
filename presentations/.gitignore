@@ -1,7 +1,0 @@
-# ignore all files but not current folder
-*
-!.gitignore
-!README.md
-!slides.html
-!figs
-!dhai_week_files
