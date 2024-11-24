@@ -36,6 +36,7 @@ You can find examples in the [`examples` folder](./examples/):
 - [`pct.ipynb`](./examples/pct.ipynb) walks through administering PCT to a LLM via HuggingFace's Serverless Inference API.
 - [`your_pct.py`](./examples/your_pct.py) allows you to take the PCT and get your score on the political compass.
 - [`llm_completion.ipynb`](./examples/llm_completion.ipynb) shows the administering of a questionnaire to HF model either locally with logits probing, or via the API and textual answers.
+- [`openai_api.ipynb`](./examples/openai_api.ipynb) shows how to leverage the `AdministerCustom` class with OpenAI syntax APIs.
 
 <!-- omit in toc -->
 #  <a class="anchor" id="classes"></a> 📚 Classes
