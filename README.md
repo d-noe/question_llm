@@ -119,6 +119,8 @@ The `AdministerQuestionnaire` class handles the process of presenting questionna
 
 *   **`AdministerCustom`**: This class is a general and modular, yet non-abstract, subclass that allows to define the different modules of the `_get_answer_probs` method. It is typically thought to enable the interaction with LLMs in different and customisable ways. Upon initialization, it requires the user to provide a `generation_method` function (responsible for generating responses using the LLM) and an `output_parser` function (responsible for extracting answer probabilities from the generated responses). The `_get_answer_probs` method in this subclass utilizes these user-defined functions to obtain the answer probabilities.
 
+    *   **[`AdministerHF`](./llm/administer_llm.py)**: is a subclass of `AdministerCustom` that instantiate the custom methods based on a HuggingFace's model (either hosted locally or through the API). It also enables to get models' responses through their logits for locally hosted models.
+
 <!-- omit in toc -->
 #  <a class="anchor" id="llm"></a> 🤖 LLM Inference Module
 

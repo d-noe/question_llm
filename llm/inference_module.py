@@ -90,35 +90,3 @@ class HFSLAPIInference(LLMInference):
         model_response = client_response["choices"][0]["message"]["content"]
         return model_response
 
-
-class CAIAPIInference(LLMInference):
-    def __init__(
-        self,
-        model_id,
-        token,
-    ):
-        from PyCharacterAI import Client
-        super().__init__(
-            model_id
-        )
-        self.client = self._set_client(token)
-
-    async def _set_client(
-        self,
-        token
-    ):
-        self.client = Client()
-        await client.authenticate(token)
-        return self.client
-
-    async def prompt_model(
-        self,
-        input_str,
-    ):
-        chat, greeting_message = await client.chat.create_chat(self.model_id)
-        answer = await client.chat.send_message(self.model_id, chat.chat_id, input_str)
-        model_response = answer.get_primary_candidate().text
-        return model_response
-
-
-
